@@ -48,3 +48,15 @@ PerMedCQA is the first large-scale, comprehensive Persian-language benchmark spe
 
 ### Link
   - https://huggingface.co/datasets/NaghmehAI/PerMedCQA
+
+## LPRGHC Test-Set (Literatures - Politics - Religions - Geography - History - Cultural) (Contributed)
+This dataset represents a significant paradigm shift in evaluating Large Language Models (LLMs) for the Persian language. While traditional benchmarks focus almost exclusively on linguistic proficiency, grammar, or translation capabilities, LPRGHC is pioneering as the first evaluation set explicitly designed to test an AI's deep understanding of a specific country's regional and cultural knowledge. Containing 12,362 carefully curated multiple-choice samples, this dataset evaluates whether a model truly comprehends the region's unique context. It challenges the assumption that speaking a language equates to understanding its people, proving that authentic localization requires a deep grasp of local history, religious nuances, literature, political structures, and geography.
+
+## Key Highlights
+  - Massive & Diverse Data Pool: The test set includes exactly 12,362 evaluation samples.
+  - Beyond Linguistic Syntax: It sets a new standard for AI localization by shifting the evaluation focus from mere language syntax and translation to authentic cultural, historical, and regional awareness.
+  - Comprehensive Macro-Categories: The data is systematically structured into 6 primary domains: History (4,442 samples), Religion (3,065 samples), Literature (2,223 samples), Politics (1,166 samples), Geography (978 samples), and Culture (488 samples).
+  - Highly Granular Sub-Categories: The dataset is further broken down into 122 highly specific sub-categories. These cover intricate local knowledge, including Iranian history (both pre- and post-Islam), Persian proverbs and literature, the Iranian constitution, traditional Iranian-Islamic medicine, and detailed geographical queries spanning various provinces such as East Azerbaijan, Isfahan, and Khorasan.
+  - Crucial for Real-World Deployment: Essential for evaluating models intended for local administrative, educational, or commercial use, ensuring they possess the factual baseline required to interact intelligently within a specific cultural framework and avoid contextual hallucinations.
+## Link
+  - https://huggingface.co/datasets/UT-NLP-LAP/LPRGHC
