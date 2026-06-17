@@ -33,6 +33,18 @@ This dataset is a large-scale, comprehensive collection of Persian speech design
   - Rich Metadata Integration: Includes extensive, well-structured metadata accompanying the audio pairs, enabling advanced data filtering, specific dialect isolation, and highly customized instruction-based training.
   - LM and Whisper Fine-Tuning Ready: Perfectly structured and formatted for fine-tuning state-of-the-art ASR architectures (such as Whisper), making it highly effective for developing specialized transcription tools for low-resource or historically complex Persian audio.
 
-### Links
+### Link
   - https://huggingface.co/datasets/BDanial/d-asr-1
 
+## PerMedCQA (Contributed)
+PerMedCQA is the first large-scale, comprehensive Persian-language benchmark specifically designed for Consumer Question Answering (CQA) in the medical domain. Sourced from authentic, real-world interactions across prominent online healthcare forums, this dataset bridges a critical gap in low-resource multilingual medical AI. It contains over 68,000 highly refined question-answer pairs that reflect genuine patient inquiries and concerns. Crucially, the dataset is grounded in medical accuracy; the responses were originally provided by licensed physicians and subsequently double-checked and validated by professional doctors and expert human annotators to ensure the highest standards of clinical safety and factual reliability.
+
+### Key Highlights
+  - First Persian Medical CQA Benchmark: Serves as a pioneering, foundational dataset for evaluating and training Large Language Models (LLMs) on consumer-oriented medical inquiries in the Persian language.
+  - Massive Scale & Authenticity: Comprises 68,138 carefully curated QA pairs (refined from over 87,000 raw entries) representing real-world, conversational patient-doctor interactions rather than artificial exam-style questions.
+  - Expert Medical Validation: All answers within the dataset have been rigorously double-checked and validated by professional doctors. This guarantees clinical accuracy, making it a safe and highly reliable resource for healthcare AI development.
+  - Rich Categorization & Metadata: The dataset spans a wide range of medical specialties and includes valuable metadata (such as patient demographics and physician specialty), allowing for highly contextualized instruction-tuning and personalized healthcare AI research.
+  - Evaluated with MedJudge Framework: The data is optimized for modern evaluation frameworks, explicitly supporting rubric-based assessment of LLMs regarding their empathy, accuracy, and clinical reasoning in patient-facing applications.
+
+### Link
+  - https://huggingface.co/datasets/NaghmehAI/PerMedCQA
