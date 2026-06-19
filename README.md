@@ -60,3 +60,15 @@ This dataset represents a significant paradigm shift in evaluating Large Languag
   - Crucial for Real-World Deployment: Essential for evaluating models intended for local administrative, educational, or commercial use, ensuring they possess the factual baseline required to interact intelligently within a specific cultural framework and avoid contextual hallucinations.
 ## Link
   - https://huggingface.co/datasets/UT-NLP-LAP/LPRGHC
+
+## APARSIN/persian-dialects-pretraining (Contributed)
+Created by the APARSIN (SilkRoadAparsin) organization, this comprehensive pretraining corpus is specifically engineered to address the severe data scarcity in __extremely low-resource_ Persian dialects and related regional languages. By carefully aggregating, normalizing, and categorizing text from highly sparse and disparate sources, this dataset provides a robust foundation for pretraining Large Language Models (LLMs) on underrepresented linguistic groups. Maintained as a gated dataset to ensure data integrity and responsible usage, it is a critical resource for preserving regional languages and advancing inclusive multilingual AI.
+
+### Key Highlights
+  - Focus on Underrepresented Dialects: Exclusively targets extremely low-resource languages and dialects, including Hazaragi, Dari, Gilaki, Pashto, and diverse Kurdish dialects (Central/Sorani, Northern/Kurmanji, Southern), alongside Standard Persian for alignment.
+  - Large-Scale Data Aggregation: Consolidates and standardizes sparse data from a wide variety of fragmented sources (e.g., Hezarai, Arman, Parsinlu, DOLMA, PEYMA, BBC) into a unified pretraining pipeline.
+  - Conflict-Free Schema Architecture: Designed with a robust structure to prevent schema conflicts during massive data loading. All source-specific metadata is safely preserved within a JSON-serialized extra field, ensuring seamless integration with the Hugging Face datasets library.
+  - Optimized for LLM Pretraining: Structured specifically for the pretraining phase of foundational models, providing the raw, categorized textual volume necessary for models to learn the deep syntactic and semantic nuances of these localized dialects.
+    
+### Link
+  - https://huggingface.co/datasets/APARSIN/persian-dialects-pretraining
